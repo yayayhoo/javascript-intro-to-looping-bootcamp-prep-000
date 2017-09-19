@@ -11,8 +11,8 @@ function forLoop(array) {
 
 function whileLoop(n) {
   while (n) {
-    n--;
-    console.log(spy);
+    // n--;
+    console.log(--n);
   }
   return n;
 }
