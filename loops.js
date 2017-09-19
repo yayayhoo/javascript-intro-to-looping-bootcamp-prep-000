@@ -1,11 +1,11 @@
 function forLoop(array) {
 
 
-  for (var i = 0; i < 25; i++) {
+  for (var i = 0; i < t+25; i++) {
 
     array[i] = "I am "+i+" strange loops.";
   }
-    array[1] = "I am 1 strange loop.";
+  array[1] = "I am 1 strange loop.";
   return array;
 }
 
