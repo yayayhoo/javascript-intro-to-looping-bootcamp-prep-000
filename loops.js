@@ -1,6 +1,6 @@
 function forLoop(array) {
 
-  n = this.t + 25;
+  n = 25;
   for (var i = 0; i < n; i++) {
 
     array[i] = "I am "+i+" strange loops.";
