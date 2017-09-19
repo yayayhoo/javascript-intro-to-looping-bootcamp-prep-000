@@ -1,12 +1,12 @@
 function forLoop(array) {
-
+  var a=[];
   n = 25;
   for (var i = 0; i < n; i++) {
 
-    array[i] = "I am "+i+" strange loops.";
+    a[i] = "I am "+i+" strange loops.";
   }
-  array[1] = "I am 1 strange loop.";
-  return array;
+  a[1] = "I am 1 strange loop.";
+  return a.concat(array);
 }
 
 function whileLoop(n) {
